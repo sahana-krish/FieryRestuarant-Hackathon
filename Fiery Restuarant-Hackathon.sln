@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieryRestuarant_Hackathon", "Fiery Restuarant-Hackathon\FieryRestuarant_Hackathon.csproj", "{9AC12702-3B07-40E0-9101-D78DE5887EA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fiery Restuarant API Layer", "Fiery Restuarant API Layer", "{C912D5F5-0EF9-476B-B3DC-00CC70268C94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fiery Restuarant Data Layer", "Fiery Restuarant Data Layer", "{65435CDA-5EB8-4EFC-B5A1-4A73433370EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fiery Restuarant Domain Layer", "Fiery Restuarant Domain Layer", "{75D4A82F-52AC-4C6B-A77E-33CD39A548E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fiery Restuarant Business Layer", "Fiery Restuarant Business Layer", "{912F609A-A130-4AE8-B299-0F80D5EE501C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieryRestaurant_Supplier_Domain", "Fiery Restaurant.Supplier.Domain\FieryRestaurant_Supplier_Domain.csproj", "{7575C260-B5A9-4482-AFEA-B8A46FD7A075}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieryRestaurant_Supplier_Model", "Fiery Restaurant.Supplier.Model\FieryRestaurant_Supplier_Model.csproj", "{DB325399-0D56-45AA-A13D-4EFE5AEBEFFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieryRestaurant_Supplier_Services", "Fiery Restaurant.Supplier.Services\FieryRestaurant_Supplier_Services.csproj", "{4AB586E1-1DF1-4879-90B3-8F65928DBCBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieryRestaurant_Supplier_DTO", "Fiery Restaurant.Supplier.DTO\FieryRestaurant_Supplier_DTO.csproj", "{E898A1DE-B6E0-4397-ADD8-B5FF19605C4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AC12702-3B07-40E0-9101-D78DE5887EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC12702-3B07-40E0-9101-D78DE5887EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC12702-3B07-40E0-9101-D78DE5887EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC12702-3B07-40E0-9101-D78DE5887EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7575C260-B5A9-4482-AFEA-B8A46FD7A075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7575C260-B5A9-4482-AFEA-B8A46FD7A075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7575C260-B5A9-4482-AFEA-B8A46FD7A075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7575C260-B5A9-4482-AFEA-B8A46FD7A075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB325399-0D56-45AA-A13D-4EFE5AEBEFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB325399-0D56-45AA-A13D-4EFE5AEBEFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB325399-0D56-45AA-A13D-4EFE5AEBEFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB325399-0D56-45AA-A13D-4EFE5AEBEFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB586E1-1DF1-4879-90B3-8F65928DBCBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB586E1-1DF1-4879-90B3-8F65928DBCBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB586E1-1DF1-4879-90B3-8F65928DBCBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB586E1-1DF1-4879-90B3-8F65928DBCBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E898A1DE-B6E0-4397-ADD8-B5FF19605C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E898A1DE-B6E0-4397-ADD8-B5FF19605C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E898A1DE-B6E0-4397-ADD8-B5FF19605C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E898A1DE-B6E0-4397-ADD8-B5FF19605C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AC12702-3B07-40E0-9101-D78DE5887EA3} = {C912D5F5-0EF9-476B-B3DC-00CC70268C94}
+		{7575C260-B5A9-4482-AFEA-B8A46FD7A075} = {75D4A82F-52AC-4C6B-A77E-33CD39A548E2}
+		{DB325399-0D56-45AA-A13D-4EFE5AEBEFFA} = {65435CDA-5EB8-4EFC-B5A1-4A73433370EF}
+		{4AB586E1-1DF1-4879-90B3-8F65928DBCBA} = {912F609A-A130-4AE8-B299-0F80D5EE501C}
+		{E898A1DE-B6E0-4397-ADD8-B5FF19605C4E} = {75D4A82F-52AC-4C6B-A77E-33CD39A548E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {268F6BE4-E61E-4BA6-A869-8018673C16C8}
+	EndGlobalSection
+EndGlobal
